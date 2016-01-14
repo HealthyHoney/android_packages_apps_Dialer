@@ -100,9 +100,9 @@ public abstract class ReverseLookup {
         } else if (provider.equals(LookupSettings.RLP_AUSKUNFT)
                 && INSTANCE instanceof AuskunftReverseLookup) {
             return true;
-        } else {
-            return false;
         }
+
+        return false;
     }
 
     /**
